@@ -1,0 +1,23 @@
+{
+    "name": "cx/fizzbuzz",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cx\\Fizzbuzz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gildas Quéméner",
+            "email": "gildas.quemener@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
